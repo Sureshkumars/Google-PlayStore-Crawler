@@ -45,7 +45,7 @@ text-shadow: 2px 2px #E5F2FF;
 
 
 <!-- Form Name -->
-<legend>Fairket Digital Services - Google Play Store crawler</legend>
+<legend>Google Play Store crawler</legend>
 
 
 <div class="form-group">
