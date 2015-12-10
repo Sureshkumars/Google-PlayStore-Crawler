@@ -1,0 +1,50 @@
+<html>
+<title>
+GP Crawler</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style>
+form fieldset h3 {
+                           color: #026AB0;
+text-align :center;
+              
+ }
+form fieldset legend {
+                           color: #000D19;
+text-align :center;
+ font-size: 40px;
+text-shadow: 2px 2px #E5F2FF;
+              
+ }
+</style>
+<body>
+<form class="form-horizontal" method='POST' action="gp.php"  name="myForm" >
+<fieldset>
+
+
+<!-- Form Name -->
+<legend>Google Play Store crawler</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="gpurl">Enter the application package name</label>  
+  <div class="col-md-6">
+  <input id="gpurl" name="gpurl" placeholder="" class="form-control input-md" type="text">
+    
+  </div>
+</div>
+
+
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-6">
+    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Submit</button>
+  </div>
+</div>
+</fieldset>
+</form>
+</body>
+</html>
